@@ -1,0 +1,5 @@
+"","Response","Predictor","P.Value","Sig"
+"1","Consumer_z","Emersion.Rate_z",0,"***"
+"2","Barnacles2_sqrt_z","Emersion.Rate_z",0,"***"
+"3","S_z","Tile.Type2",0.0016,"**"
+"4","Statistical_averaging_z","Tile.Type2",0.0329,"*"
