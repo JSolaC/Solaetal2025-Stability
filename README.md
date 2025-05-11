@@ -1,4 +1,4 @@
-Sola et al. 2025 — Counteracting Cascades Challenge the Heterogeneity–Stability Relationship
+# Sola et al. 2025 — Counteracting Cascades Challenge the Heterogeneity–Stability Relationship
 
 This repository contains the data and R code used for the study:
 Sola, J., Fairchild, T.P., Perkins, M.J., Bull, J.C., & Griffin, J.N. (2025). Counteracting cascades challenge the heterogeneity–stability relationship.
