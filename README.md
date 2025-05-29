@@ -1,10 +1,37 @@
-# Sola et al. 2025 — Counteracting Cascades Challenge the Heterogeneity–Stability Relationship
+# Sola et al. 2025 — *Counteracting Cascades Challenge the Heterogeneity–Stability Relationship*
 
-This repository contains the data and R code used for the study:
-Sola, J., Fairchild, T.P., Perkins, M.J., Bull, J.C., & Griffin, J.N. (2025). Counteracting cascades challenge the heterogeneity–stability relationship.
+This repository provides the data and R code used in the study:
 
-The study presents a three-year field experiment conducted on a rocky shore to test the ecological assumption that spatial heterogeneity enhances community temporal stability. Contrary to theoretical expectations, we found no net effect of heterogeneity on stability, due to counteracting cascades involving species richness, population dynamics, and dominant species suppression. This repository enables full reproducibility of the analyses, figures, and models presented in the paper.
+**Sola, J., Fairchild, T.P., Perkins, M.J., Bull, J.C., & Griffin, J.N. (2025).** *Counteracting cascades challenge the heterogeneity–stability relationship.* *Ecology Letters.*
 
-The repository is organised into four main folders. The Data folder contains the processed data used in the analyses, along with scripts for calculating temporal stability metrics and related components. The Models folder includes mixed-effects models and Structural Equation Models used to assess species richness, community composition, and dominant taxa. The Plots folder provides code to generate all figures from the main text. The SupplementaryMaterials folder contains additional scripts used to reproduce supplementary figures, conduct sensitivity analyses, and perform further assessments.
+The study is based on a three-year field experiment on a temperate rocky shore, testing the widely held ecological assumption that spatial heterogeneity promotes community temporal stability. Contrary to theoretical expectations, we found that heterogeneity had no net stabilising effect, due to opposing cascades involving species richness, population variability, and suppression of dominant species. This repository enables full reproducibility of all analyses, figures, and models presented in the paper.
 
-To reproduce the results, begin by running the scripts in the Models folder, which rely on the data files in the Data folder. Once the models have been executed, use the code in the Plots folder to visualise the results. Supplementary analyses and additional figures can be reproduced using the scripts in the SupplementaryMaterials folder.
+## Repository Structure
+
+The repository is organised into four main folders:
+
+- **`Data/`**  
+  Contains the processed datasets used in the analyses, as well as scripts for calculating temporal stability and its components (e.g., species synchrony, variability, richness).
+
+- **`Models/`**  
+  Includes the full suite of statistical models used in the study, including mixed-effects models and structural equation models (SEMs) examining richness, composition, and the roles of dominant taxa.
+
+- **`Plots/`**  
+  Contains scripts to generate all main-text figures, based on model outputs.
+
+- **`SupplementaryMaterials/`**  
+  Provides additional code for reproducing supplementary figures, running sensitivity analyses, and exploring further model outputs.
+
+## Reproducibility Instructions
+
+1. Begin by running the scripts in the **`Models/`** folder. These rely on data files located in **`Data/`**.
+2. Once the models are executed, use the scripts in **`Plots/`** to generate the figures included in the main text.
+3. Supplementary analyses and figures can be reproduced using the scripts in **`SupplementaryMaterials/`**.
+
+## Notes on Data
+
+The datasets in the folder **`Datasets/`** provided here are derived from a subset of the full raw dataset. However, the full processed dataset used for the published analyses is included to ensure full reproducibility.
+
+## Package Version Compatibility
+
+Please note that all analyses were performed using R package versions from **2020**. Incompatibilities may arise if using newer versions of certain packages (e.g., `lme4`, `piecewiseSEM`). We recommend using the `renv` or `checkpoint` package to manage package versions and recreate the original analysis environment.
