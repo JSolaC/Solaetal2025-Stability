@@ -52,10 +52,10 @@ Plot_model(Cov_model, Stability_data, "Emersion.Rate [all]", "Tile.Type", "Emers
 
 #### SEM PATHWAYS ####
 
-SEM_coefs <- read.csv('/Users/jordisola/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD_thesis/Habitat_stability/Data_analysis/CommunityAnalysis/Publication/Models/SEM_multigroup_coefs.csv') %>%
+SEM_coefs <- read.csv('Models/SEM_multigroup_coefs.csv') %>%
   filter(Var.9!='')
 
-SEM_one_coefs <- read.csv('/Users/jordisola/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD_thesis/Habitat_stability/Data_analysis/CommunityAnalysis/Publication/Models/SEM_one_coefs.csv') %>%
+SEM_one_coefs <- read.csv('Models/SEM_one_coefs.csv') %>%
   filter(Var.9!='') %>%
   mutate(EmGroup="A")
 
