@@ -34,7 +34,7 @@ The datasets in the folder **`Datasets/`** provided here are derived from a subs
 
 ## Package Version Compatibility
 
-Please note that all analyses were originally conducted using R package versions from 2020. Running the code with newer package versions may lead to errors or incompatibilities, particularly with packages such as nlme and piecewiseSEM (see for example: GitHub Issue #763).
+Please note that all analyses were originally conducted using R package versions from 2022. Running the code with newer package versions may lead to errors or incompatibilities, particularly with packages such as nlme and piecewiseSEM (see for example: GitHub Issue #763).
 
 To ensure full reproducibility, we recommend managing package versions using tools such as remotes, renv, or checkpoint. These allow users to recreate the original analysis environment with the appropriate package versions.
 
