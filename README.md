@@ -36,6 +36,6 @@ The datasets in the folder **`Datasets/`** provided here are derived from a subs
 
 Please note that all analyses were originally conducted using R package versions from 2022. Running the code with newer package versions may lead to errors or incompatibilities, particularly with packages such as nlme and piecewiseSEM (see for example: GitHub Issue #763).
 
-To ensure full reproducibility, we provide the R version with which the code was run (R.4.1.2) as well as the installation of the 2022 packages used to run the models.
+To ensure full reproducibility, we recommend installing the R version with which the code was run (R.4.1.2 at https://cran.r-project.org/bin/macosx/) as well as the installation of the 2022 packages used to run the models.
 
 We plan to include a future update with code to help users automatically replicate the exact setup used in the original analyses.
