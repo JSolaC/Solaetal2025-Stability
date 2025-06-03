@@ -30,7 +30,7 @@ The repository is organised into four main folders:
 
 ## Notes on Data
 
-The datasets in the folder **`Datasets/`** provided here are derived from a subset of the full raw dataset. However, the full processed dataset used for the published analyses is included to ensure full reproducibility.
+The datasets in the folder **`Datasets/`** are provided to ensure full reproducibility.
 
 ## Package Version Compatibility
 
